@@ -16,3 +16,6 @@ services:
       - type: bind
         source: ./viz
         target: /app
+      - type: bind
+        source: ./.streamlit
+        target: /root/.streamlit

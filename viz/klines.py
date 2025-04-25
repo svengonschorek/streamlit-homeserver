@@ -58,7 +58,7 @@ def get_kline_data(coin="SOL", aggregation="day", start_time='2021-01-01', end_t
 st.set_page_config(layout="wide")
 
 # Sidebar
-st.sidebar.title("Crypto K-Lines per Coin")
+st.sidebar.title("Crypto K-Lines")
 
 # Select coin
 coin = st.sidebar.selectbox("Select Crypto Coin", get_coins())
